@@ -10,16 +10,17 @@ function index (data) {
           <img src={place.pic} alt={place.name}/>
         </div>
       )
-})
+    })
     return (
       <Def>
-        <main>
-              <h1>PLACES INDEX PAGE </h1>
+          <main>
+              <h1>PLACES INDEX PAGE</h1>
               {placesFormatted}
-        </main>
+          </main>
       </Def>
   )
-}
+  }
+  
   
 
 module.exports = index
