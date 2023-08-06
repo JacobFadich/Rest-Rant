@@ -6,9 +6,15 @@ function home () {
       <Def>
           <main>
               <h1>HOME</h1>
-              <link rel="stylesheet" href="/css/style.css"/>
               <a href="/places"><button className="btn-primary">Places Page</button>
               </a>
+              <div>
+                <center><img src="/images/food1.jpg" width="1500px" height="1000px" alt="Example Food"/></center>
+                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
+                    Photo by <a href="https://unsplash.com/@lvnatikk">Lily Banse </a> 
+                    on <a href="https://unsplash.com/">Unsplash</a>
+                </div>
+              </div>
 
           </main>
       </Def>
