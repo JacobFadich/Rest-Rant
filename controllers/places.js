@@ -6,9 +6,7 @@ router.get('/new', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-   
-  places.push(req.body)
-  res.redirect('POST /places')
+  res.send('POST /places')
 })
 
 
