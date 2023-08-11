@@ -3,11 +3,11 @@ const Def = require('../default')
 
 
 function index (data) {
-    let placesFormatted = data.places?.map((place) => {
+    let placesFormatted = data.places.map((place) => {
       return (
         <div className="col-sm-6">
           <h2>
-            <a href={`/places/${index}`}>
+            <a href={`/places/${place.index}`}>
               {place.name}
             </a>
           
