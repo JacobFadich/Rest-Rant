@@ -5,7 +5,8 @@ function home () {
     return (
       <Def>
           <main>
-              <h1>Home</h1>
+              <h1>Home </h1>
+              
               <a href="/places"><button className="btn-primary">Places Page</button>
               </a>
               <div>
@@ -20,6 +21,8 @@ function home () {
       </Def>
     )
   }
+
+
   
 
 module.exports = home
